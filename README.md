@@ -9,7 +9,7 @@
 
 # Installation
 #### Composer:  
-- `composer config repositories.pphong/product-donate vcs https://github.com/phongphanmage/product-donate-options.git`
+- `composer config repositories.pphong/product-donate vcs https://github.com/phongphanmage/donate-option-product.git`
 - `composer require pphong/product-donate:dev-master`
 - Execute this command if your environment is developer: `./bin/magento setup:upgrade`
 - Execute this command if your environment is production: `./bin/magento setup:upgrade && ./bin/magento deploy:mode:set production`
